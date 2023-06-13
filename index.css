@@ -1,0 +1,158 @@
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+
+*{
+margin: 0;
+font-family: "Quicksand";
+color:  #3A3B3C
+}
+
+.navbar {
+padding: 25px;
+display: flex;
+align-items: center;
+max-width: 600px;
+margin: 0 auto;
+border-bottom: 1px solid rgb(230, 219, 219); ;
+}
+
+.navbar .links{
+margin-left: auto;
+}
+
+
+.navbar a {
+margin-left: 16px;
+text-decoration: none;
+padding: 6px;
+}
+
+.navbar .links .create{
+  border: 2px solid #09835e;
+  border-radius: 10px;
+  background-color: #09835e;
+  color:rgb(255, 255, 255)
+}
+
+.navbar .links .create:hover{
+  background-color: #0a946b;
+
+}
+
+
+.navbar a:hover{
+  color:blue
+}
+
+.content{
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px 10px 5px;
+}
+
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(241, 236, 236);
+  color:#09835e;
+}
+
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgb(228, 208, 208);
+}
+.blog-preview h2{
+font-size: 22px;
+margin-bottom: 10px;
+color:#09835e
+}
+
+
+.blog-preview a{
+  text-decoration: none; 
+}
+
+.blog-details h2{
+font-size: 23px ;
+color: #09835e;
+margin-bottom: 10px;
+}
+
+.blog-details div{
+margin: 20px 0;
+}
+
+.blog-details p{
+  margin-top: 10px;
+}
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+  
+}
+
+.create h2{
+  font-size: 20px;
+  color: #616b5c;
+  margin-bottom: 30px;
+
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(236, 210, 210);
+  display: block;
+  border-radius: 3px;
+}
+
+.create input::-webkit-input-placeholder {
+  color: rgb(177, 133, 133);
+}
+
+.create input:focus::-webkit-input-placeholder {
+  color: rgb(155, 64, 64);
+}
+
+.create textarea::-webkit-input-placeholder {
+  color: rgb(177, 133, 133);
+}
+
+.create textarea:focus::-webkit-input-placeholder {
+  color: rgb(155, 64, 64);
+}
+
+.create button {
+  background-color: rgb(136, 66, 66);
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details button{
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(136, 66, 66);
+  border: 0;
+  cursor: pointer;
+  
+}
+
+.notFound a:hover{
+  color: blue;
+}
+
+.notFound h2{
+  margin-bottom: 20px;
+}
